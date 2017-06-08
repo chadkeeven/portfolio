@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<!--Hello World-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+		<title>Portfolio Site</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/port_site.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<section class ="row">
+					<div class ="col-md-6">
+						<img class ="img-responsive udacity-logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg"
+						alt="Udacity Logo">
+					</div>
+					<div class ="col-md-6 text-right text-uppercase">
+						<h1 class="h1-thinner h1-enlarger title-color">Chad Keeven</h1>
+						<h3 class="title-color">Full Stack Web Developer</h3>
+					</div>
+				</section>
+			</header>
+			<section class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</section>
+			<section class ="row">
+				<div class="col-md-12">
+					<img class = "img-responsive" src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/Full-Stack.png"
+					alt ="Full-Stack Web Developer"
+					>
+				</div>
+			</section>
+			<section class ="row">
+				<div class="col-md-12">
+					<h2 class="h2-color-change">Featured Work</h2>
+				</div>
+			</section>
+			<section class ="row">
+				<div class="col-md-4 text-center">
+					<img class= "img-responsive img-pointer" src="img/rsz_python-logo-36.jpg" data-toggle="modal" data-target="#project1"
+					alt="python logo">
+					<h1 class="text-uppercase title-color">Python Shapes</h1>
+					<p><a href="https://github.com/chadkeeven/dark_trig">Link to project</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img class= "img-responsive img-pointer" src="img/rsz_baseball.jpg" data-toggle="modal" data-target="#project2"
+					alt="baseball">
+					<h1 class="text-uppercase title-color">Baseball Quiz</h1>
+					<p><a href="https://github.com/chadkeeven/baseball-quiz">Link to project</a></p>
+				</div>
+				<div class="col-md-4 text-center">
+					<img class= "img-responsive img-pointer" src="img/rsz_636183694611085315190839551_movies.jpg" data-toggle="modal" data-target="#project3"
+					alt="movie and popcorn">
+					<h1 class="text-uppercase title-color">Movie Website</h1>
+					<p><a href="https://github.com/chadkeeven/movie_website">Link to project</a></p>
+				</div>
+			</section>
+		</div>
+			<!-- Modals -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Python Shapes</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/rsz_python-logo-36.jpg"
+						alt="python logo">
+	                    A fun mini-project. Used turtle to draw shapes and objects.
+	                </div>
+	                <div class="modal-footer">
+	                	<div class="col-md-6 text-left">
+	                		<form action="https://github.com/chadkeeven/dark_trig" method="get">
+  								<button>Link</button>
+							</form>
+	                	</div>
+	                	<div class="col-md-6">
+	                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel2">Baseball Quiz</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/rsz_baseball.jpg"
+						alt="baseball">
+	                    Made a 3 level difficulty baseball quiz. Using my skills in python.
+	                </div>
+	                <div class="modal-footer">
+	                	<div class="col-md-6 text-left">
+	                		<form action="https://github.com/chadkeeven/baseball-quiz" method="get">
+  								<button>Link</button>
+							</form>
+	                	</div>
+	                	<div class="col-md-6">
+	                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel3">Movie Website</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive" src="img/rsz_636183694611085315190839551_movies.jpg"
+						alt="movie and popcorn">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                	<div class="col-md-6 text-left">
+	                		<form action="https://github.com/chadkeeven/movie_website" method="get">
+  								<button>Link</button>
+							</form>
+	                	</div>
+	                	<div class="col-md-6">
+	                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+		<script src="js/jquery-3.2.1.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

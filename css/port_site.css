@@ -1,0 +1,38 @@
+.udacity-logo {
+	max-height: 100px;
+	margin-top: 20px;
+}
+
+body {
+	background-color: #dcdcdc;
+}
+
+.title-color {
+	color: #2d3c49;
+}
+
+hr {
+	border-top: medium solid #7d97ad;
+}
+
+* {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+.h2-color-change {
+	color: #7d97ad;
+}
+
+.h1-thinner {
+	font-weight: 100;
+}
+
+.h1-enlarger {
+	font-size: 50px;
+}
+
+.img-pointer {
+	cursor: pointer;
+}
